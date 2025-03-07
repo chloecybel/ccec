@@ -20,7 +20,7 @@ function setup(){
   bgColor.position(70, 1149);
 
   TextInput=  createInput('')
-  TextInput.position(9,1060);
+  TextInput.position(9,1080);
 
   windowresize();
 }
@@ -33,7 +33,6 @@ function draw(){
   text(msg, 25, 25);
 }
 
-  
 function mousePressed(){  
   let msg = TextInput.value();
   if (msg !== "") { // Text must be entered to create flowers
